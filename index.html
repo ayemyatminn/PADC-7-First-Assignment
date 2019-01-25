@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Main Page</title>
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+            
+            li {
+              float: left;
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+              background-color: #111;
+            }
+            
+            .active {
+              background-color: #4CAF50;
+            }
+
+            footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                padding: 14px 16px;
+                width: 100%;
+                background-color: #111;
+                color: white;
+                text-align: left;
+             }
+
+             .card {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 30%;
+                margin-top: 30px;
+                margin-right: 35px;
+                display: inline-block;
+                }
+
+                .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                }
+
+                .container {
+                padding: 2px 16px;
+                text-align: center;
+            }
+            </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a class="active" href="index.html">PADC 7</a></li>
+                <li><a href="business_detail.html">Business</a></li>
+                <li><a href="design_detail.html">Design</a></li>
+                <li><a href="inspiration_detail.html">Inspiration</a></li>
+              </ul>
+        </header>
+
+        <div>
+            <a href="business_detail.html">
+                <div class="card">
+                    <img src="https://web-assets.domo.com/blog/wp-content/uploads/2017/02/16-blog-featured-self-service-business-675x400.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4><b>Business</b></h4> 
+                    </div>
+                </div>
+            </a>
+            <a href="design_detail.html">
+                <div class="card">
+                    <img src="http://factsnfiction.com/wp-content/uploads/2017/04/graphic-design.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4><b>Design</b></h4> 
+                    </div>
+                </div>
+            </a>
+            <a href="inspiration_detail.html">
+                <div class="card">
+                    <img src="http://thepinkgroup.co.uk/wp-content/uploads/2014/09/lightbulb-header2.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4><b>Inspiration</b></h4> 
+                    </div>
+                </div>
+            </a>
+        </div>        
+
+        <footer>
+            <p>PADC 7 =>Web Full Term Course <span style="float: right;margin-right: 20px;">Contact Info: <a href="">PADC@gmail.com</a></span></p>
+        </footer>
+    </body>
+</html>
